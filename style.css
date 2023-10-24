@@ -1,17 +1,27 @@
+body{
+    background-color: rgba(192, 192, 245, 0.582);
+}
 main{
     width: 400px;
-    background-color: honeydew;
+    background-image: linear-gradient(to right, white, rgba(216, 210, 240, 0.226));
+    text-align: justify;
+    border: solid 1px gray;
+    box-shadow: inset 0 0 2px rgb(82, 8, 255);
+    margin: auto;
 }
 h1{
     
     margin-bottom: 0px;
     margin-left: 8px;
     padding: 0.1;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 .rapido-facil{
     margin-top: 0px;
     margin-left: 10px;
     font-size: 16px;
+    text-align: center;
     color: gray;
     font-weight: normal;
 }
@@ -88,6 +98,14 @@ h1{
     margin-left: 8px;
 }
 
+.campo-nascimento{
+    text-align: center;
+}
+
+.campo-genero {
+    text-align: center;
+}
+
 #feminino  {
     margin-right: 30px;
     padding: 3px;
@@ -100,7 +118,7 @@ h1{
 }
 
 .termos{
-    margin-top: 25px;
+    margin: 20px 10px;
     font-size: 12px;
     text-align: justify;
 }
@@ -120,8 +138,9 @@ h1{
     
 }
 
-.cadastre-se ::after{
+.cadastre-se:hover{
     background-color: rgba(121, 128, 121, 0.616);
     border-radius: 10px;
+    cursor: pointer;
 }
 

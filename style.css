@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px)
+/* @media screen and (max-width: 768px) */
 
 body{
     background-color: rgba(192, 192, 245, 0.582);
@@ -31,6 +31,7 @@ h1{
 
 #nome {
     margin: 8px;
+    width: 120px;
     height: 25px;
     border-radius: 5px;
     border: 1px solid gray;
@@ -38,6 +39,7 @@ h1{
 }
 
 #sobrenome{
+    width: 120px;
     height: 25px;
     border-radius: 5px;
     border: 1px solid gray;
@@ -49,6 +51,10 @@ h1{
     height: 25px;
     border-radius: 5px;
     border: 1px solid gray;
+}
+
+.nome-sobrenome{
+    text-align: center;
 }
 
 #senha{
